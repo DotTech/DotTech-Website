@@ -1703,7 +1703,7 @@ input.error, textarea.error {
         font-size: 20px;
         height: 395px;
         left: 0;
-        opacity: 0.9;
+        opacity: 0.95;
         padding-top: 100px;
         position: absolute;
         text-align: center;
@@ -1711,6 +1711,11 @@ input.error, textarea.error {
         width: 330px;
         display: none;
     }
+
+        #contact-form fieldset.confirmation.failed {
+            height: 326px;
+            padding-top: 33px;
+        }
 
         #contact-form fieldset.confirmation p {
             line-height: 50px;

@@ -15,12 +15,19 @@ $(function() {
 			var formValues = $(this).serialize();
 			
 			$.post($(this).attr('action'), formValues, function (data) {
-				setTimeout(function () { 
+			    setTimeout(function () {
+
+			        var fieldset = "fieldset.confirmation.success";
+
+			        if (data != "OK") {
+			            fieldset = "fieldset.confirmation.failed";
+			        }
+
 					hideLoader();
 					contactForm.find('.submit-area').removeClass('loading').addClass("success"); 
 					contactForm.clearForm();
 
-					contactForm.find("fieldset.confirmation").show();
+					contactForm.find(fieldset).show();
 
 					setTimeout(function () {
 					    contactForm.find(".submit-area .icon").hide();
