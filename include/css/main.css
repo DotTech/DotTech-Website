@@ -1005,40 +1005,6 @@ ul.personal-info.contact-form .title {
                 background-size: 30px 30px;
             }
 
-            .social li a.pinterest {
-                background-image: url(../images/bckg/pinterest-icon.png);
-            }
-
-                .social li a.pinterest:hover {
-                    background-image: url(../images/bckg/pinterest-icon-light.png);
-                }
-
-            .social li a.soundcloud {
-                background-image: url(../images/bckg/soundcloud-icon.png);
-            }
-
-                .social li a.soundcloud:hover {
-                    background-color: #f8490e;
-                    background-image: url(../images/bckg/soundcloud-icon-light.png);
-                }
-
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-device-pixel-ratio: 1.5) {
-    .social li a.pinterest {
-        background-image: url(../images/bckg/pinterest-icon@2x.png);
-    }
-
-        .social li a.pinterest:hover {
-            background-image: url(../images/bckg/pinterest-icon-light@2x.png);
-        }
-
-    .social li a.soundcloud {
-        background-image: url(../images/bckg/soundcloud-icon@2x.png);
-    }
-
-        .social li a.soundcloud:hover {
-            background-image: url(../images/bckg/soundcloud-icon-light@2x.png);
-        }
-}
 
 
 /* ------------------------------------------ 
