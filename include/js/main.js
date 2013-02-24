@@ -77,7 +77,7 @@ $(function() {
 			path = path.slice(1, path.length);
 			path = giveDetailUrl() != -1 ? portfolioKeyword : path;
 			if(path == "") {  // if hash tag doesnt exists - go to first page
-				var firstPage = $('#header ul li').first().find('a').attr('href');
+			    var firstPage = $('#header ul li').first().find('a').attr('href');
 				path = firstPage.slice(2,firstPage.length);
 				$.address.path(path);
 				}

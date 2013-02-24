@@ -1724,3 +1724,24 @@ input.error, textarea.error {
 #portfolio .scroller.container > p.introduction {
     margin-bottom: 35px;
 }
+
+.profile-image .te-wrapper > div {
+    position: relative;
+}
+
+a#sitecore-mvp {
+    width: 95px;
+    height: 172px;
+    background: url(../images/sitecore_mvp.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+    line-height: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    opacity: 0.9;
+}
+
+    a#sitecore-mvp:hover {
+        opacity: 1;
+    }
